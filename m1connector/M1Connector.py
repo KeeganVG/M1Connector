@@ -65,17 +65,3 @@ class M1Connector:
     def commit(self):
         self.connection.commit()
 
-
-if __name__ == "__main__":
-    host = "172.16.1.40\M1SQL"
-    db = "M1_SBB"
-    user = 'sa'
-    pwd = 'CCTsql1!'
-
-    m1 = M1Connector(host, db, user, pwd)
-
-    limit = 0
-    while limit < 20:
-        m1.execute(f"select * from Parts")
-        print(m1.fetchall())
-        limit += 1

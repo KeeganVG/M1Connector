@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "M1Connector"
 version = "0.1.0"
-description = ""
-authors = ["Keegan <Keegan.vangemeren@clearcube.com>"]
+description = "A simple python connector to a mysql database"
+authors = ["Keegan van Gemeren <Keegan.vangemeren@gmail.com.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
