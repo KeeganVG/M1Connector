@@ -1,2 +1,2 @@
 # M1Connector
-A simple connector python connector to a mysql database, for the purpose of interacting with a M1 ERP Database.
+Python tool for connecting to M1's database ( MS-SQL )
